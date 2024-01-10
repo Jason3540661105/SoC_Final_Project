@@ -26,30 +26,6 @@ int init_map[Map1_HEIGHT][Map1_WIDTH] = {
 	{1, 1, 1, 1, 1, 1, 1, 1}
 };
 /*
-int init_map[Map1_HEIGHT][Map1_WIDTH]={
-	{0, 0, 1, 1, 1, 1, 1, 0},
-	{1, 1, 1, 0, 0, 0, 1, 0},
-	{1, 7, 5, 0, 0, 0, 1, 0},
-	{1, 1, 1, 0, 0, 7, 1, 0},
-	{1, 7, 1, 1, 0, 0, 1, 0},
-	{1, 0, 1, 0, 7, 0, 1, 1},
-	{1, 0, 0, 0, 0, 0, 7, 1},
-	{1, 0, 0, 0, 7, 0, 0, 1},
-	{1, 1, 1, 1, 1, 1, 1, 1}
-};
- * 正常版本
-int init_map[Map1_HEIGHT][Map1_WIDTH] = {
-	{0, 0, 1, 1, 1, 1, 1, 0},
-	{1, 1, 1, 0, 0, 0, 1, 0},
-	{1, 3, 5, 4, 0, 0, 1, 0},
-	{1, 1, 1, 0, 4, 3, 1, 0},
-	{1, 3, 1, 1, 4, 0, 1, 0},
-	{1, 0, 1, 0, 3, 0, 1, 1},
-	{1, 4, 0, 0, 4, 4, 3, 1},
-	{1, 0, 0, 0, 3, 0, 0, 1},
-	{1, 1, 1, 1, 1, 1, 1, 1}
-};
-* 快速解答版本
 int init_map[Map1_HEIGHT][Map1_WIDTH] = {
 	{0, 0, 1, 1, 1, 1, 1, 0},
 	{1, 1, 1, 0, 0, 0, 1, 0},
@@ -61,12 +37,10 @@ int init_map[Map1_HEIGHT][Map1_WIDTH] = {
 	{1, 0, 0, 0, 3, 0, 0, 1},
 	{1, 1, 1, 1, 1, 1, 1, 1}
 };
-<<<<<<< HEAD
-* 多個人物的地圖
 int init_map[Map1_HEIGHT][Map1_WIDTH] = {
 	{0, 0, 1, 1, 1, 1, 1, 0},
 	{1, 1, 1, 0, 0, 0, 1, 0},
-	{1, 3, 5, 4, 0, 5, 1, 0},
+	{1, 3, 5, 4, 0, 0, 1, 0},
 	{1, 1, 1, 0, 4, 3, 1, 0},
 	{1, 3, 1, 1, 4, 0, 1, 0},
 	{1, 0, 1, 0, 3, 0, 1, 1},
@@ -74,20 +48,6 @@ int init_map[Map1_HEIGHT][Map1_WIDTH] = {
 	{1, 0, 0, 0, 3, 0, 0, 1},
 	{1, 1, 1, 1, 1, 1, 1, 1}
 };
-* 沒有箱子的地圖
-int init_map[Map1_HEIGHT][Map1_WIDTH] = {
-	{0, 0, 1, 1, 1, 1, 1, 0},
-	{1, 1, 1, 0, 0, 0, 1, 0},
-	{1, 3, 0, 5, 0, 5, 1, 0},
-	{1, 1, 1, 0, 0, 3, 1, 0},
-	{1, 3, 1, 1, 0, 0, 1, 0},
-	{1, 0, 1, 0, 3, 0, 1, 1},
-	{1, 0, 0, 0, 0, 0, 3, 1},
-	{1, 0, 0, 0, 3, 0, 0, 1},
-	{1, 1, 1, 1, 1, 1, 1, 1}
-};
-=======
->>>>>>> f16324c (final)
  */
 /*	0:Empty Position	|	1:Game Wall		|	3:Where the box should be placed
  * 	4:Box Position		|	5:Human Position-1
@@ -100,7 +60,7 @@ void Initial_Map(int Map_data[Map1_HEIGHT][Map1_WIDTH], int init_map[Map1_HEIGHT
 void MapToArray(u8 *byteArray, int Map_data[Map1_HEIGHT][Map1_WIDTH], int Game_State);
 
 //計算目的地剩餘數量
-void Remaining_Box(int *Remaining_Box_Total, int Map_data[Map1_HEIGHT][Map1_WIDTH]);
+void Remaining_Box(int *Remaining_Destinations_Total, int Map_data[Map1_HEIGHT][Map1_WIDTH]);
 
 //判斷遊戲是否勝利 -1(轉換過的map) 2(未轉換過的map)
 //bool isWinner(u8 *Map_data);							//1
@@ -118,7 +78,7 @@ void Move_Up(int Map_Update[Map1_HEIGHT][Map1_WIDTH], int Person_X, int Person_Y
 //按鈕功能->人物向「下」移動時，更新地圖資料
 void Move_Down(int Map_Update[Map1_HEIGHT][Map1_WIDTH], int Person_X, int Person_Y);
 
-//按鈕功能->人物向「左」移動時，更新地圖資料
+//按鈕功能->人物向「右」移動時，更新地圖資料
 void Move_Left(int Map_Update[Map1_HEIGHT][Map1_WIDTH], int Person_X, int Person_Y);
 
 //按鈕功能->人物向「右」移動時，更新地圖資料
@@ -129,34 +89,3 @@ void Game_Reset(int Map_data[Map1_HEIGHT][Map1_WIDTH], int init_map[Map1_HEIGHT]
 
 //檢查地圖資料
 void Print_Map_Data(u8 *Map_data);
-<<<<<<< HEAD
-=======
-
-
-/*
-* 多個人物的地圖
-int init_map[Map1_HEIGHT][Map1_WIDTH] = {
-	{0, 0, 1, 1, 1, 1, 1, 0},
-	{1, 1, 1, 0, 0, 0, 1, 0},
-	{1, 3, 5, 4, 0, 5, 1, 0},
-	{1, 1, 1, 0, 4, 3, 1, 0},
-	{1, 3, 1, 1, 4, 0, 1, 0},
-	{1, 0, 1, 0, 3, 0, 1, 1},
-	{1, 4, 0, 0, 4, 4, 3, 1},
-	{1, 0, 0, 0, 3, 0, 0, 1},
-	{1, 1, 1, 1, 1, 1, 1, 1}
-};
-* 沒有箱子的地圖
-int init_map[Map1_HEIGHT][Map1_WIDTH] = {
-	{0, 0, 1, 1, 1, 1, 1, 0},
-	{1, 1, 1, 0, 0, 0, 1, 0},
-	{1, 3, 0, 5, 0, 5, 1, 0},
-	{1, 1, 1, 0, 0, 3, 1, 0},
-	{1, 3, 1, 1, 0, 0, 1, 0},
-	{1, 0, 1, 0, 3, 0, 1, 1},
-	{1, 0, 0, 0, 0, 0, 3, 1},
-	{1, 0, 0, 0, 3, 0, 0, 1},
-	{1, 1, 1, 1, 1, 1, 1, 1}
-};
- */
->>>>>>> f16324c (final)

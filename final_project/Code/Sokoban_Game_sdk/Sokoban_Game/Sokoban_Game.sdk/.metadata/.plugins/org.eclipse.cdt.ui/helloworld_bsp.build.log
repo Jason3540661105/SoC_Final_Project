@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-12:17:27 **** Build of project helloworld_bsp ****
-=======
-14:09:48 **** Build of project helloworld_bsp ****
->>>>>>> f16324c (final)
+01:01:54 **** Build of project helloworld_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
@@ -107,9 +103,5 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm
 "Compiling xadcps"
 'Finished building libraries'
 
-<<<<<<< HEAD
-12:17:48 Build Finished (took 20s.913ms)
-=======
-14:10:10 Build Finished (took 22s.422ms)
->>>>>>> f16324c (final)
+01:02:16 Build Finished (took 22s.26ms)
 

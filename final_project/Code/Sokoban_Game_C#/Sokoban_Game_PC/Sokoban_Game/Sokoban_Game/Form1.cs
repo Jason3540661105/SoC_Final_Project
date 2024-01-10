@@ -290,10 +290,7 @@ namespace Sokoban_Game
                                 }
                              }*/
                         UpadteScreen();
-<<<<<<< HEAD
-=======
 
->>>>>>> f16324c (final)
                     if (Sokoban_Game_State == 1)
                     {
                         MessageBox.Show("遊戲通關！\n" + "1.重新遊玩遊戲請按「上下左右」的按鈕\n" + "2.想離開遊戲請按「重置」按鈕");

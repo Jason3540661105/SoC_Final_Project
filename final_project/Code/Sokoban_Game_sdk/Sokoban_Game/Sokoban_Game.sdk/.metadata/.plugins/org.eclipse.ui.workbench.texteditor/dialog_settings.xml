@@ -2,45 +2,29 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-<<<<<<< HEAD
-		<item value="led_data" key="selection"/>
-=======
-		<item value="printf" key="selection"/>
->>>>>>> f16324c (final)
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
-		<item value="false" key="wrap"/>
+		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-<<<<<<< HEAD
-			<item value="led_data"/>
-			<item value="TransmitBuffer"/>
-			<item value="Game_sta"/>
-			<item value="Game"/>
-			<item value="find"/>
-			<item value="Initial_Map"/>
-			<item value="LEDInst"/>
 			<item value="Remaining_Destinations_led"/>
-=======
-			<item value="printf"/>
-			<item value="baseaddr_p"/>
-			<item value="XGPIO_IR_CH1_MASK"/>
-			<item value="XGPIO_IR_CH"/>
-			<item value="winner"/>
-			<item value="isWinner"/>
-			<item value="isW"/>
-			<item value="iswinner"/>
->>>>>>> f16324c (final)
+			<item value="LED_X"/>
+			<item value="LED_Xgpio"/>
+			<item value="LEDInst"/>
+			<item value="LED_XGpio"/>
+			<item value="Judge_Game_State"/>
+			<item value="find_person"/>
+			<item value="Uart_SendData"/>
 		</list>
 		<list key="replacehistory">
-			<item value="te"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="344" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="442" key="DIALOG_HEIGHT"/>
-		<item value="1553" key="DIALOG_X_ORIGIN"/>
-		<item value="369" key="DIALOG_Y_ORIGIN"/>
+		<item value="1910" key="DIALOG_X_ORIGIN"/>
+		<item value="251" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

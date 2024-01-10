@@ -2,10 +2,10 @@
 # Vivado v2018.2.2 (64-bit)
 # SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
 # IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
-# Start of session at: Sat Jan  6 12:15:54 2024
-# Process ID: 11160
+# Start of session at: Wed Jan 10 23:48:00 2024
+# Process ID: 34800
 # Current directory: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4868 C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_sdk\Sokoban_Game\Sokoban_Game.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25892 C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_sdk\Sokoban_Game\Sokoban_Game.xpr
 # Log file: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/vivado.log
 # Journal file: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game\vivado.jou
 #-----------------------------------------------------------
@@ -18,11 +18,11 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 891.113 ; gain = 149.953
-update_compile_order -fileset sources_1
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 901.402 ; gain = 204.230
 launch_sdk -workspace C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/Sokoban_Game.sdk -hwspec C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/Sokoban_Game.sdk/sokoban_wrapper.hdf
 INFO: [Vivado 12-393] Launching SDK...
 INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/Sokoban_Game.sdk -hwspec C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/Sokoban_Game.sdk/sokoban_wrapper.hdf
 INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Sat Jan  6 12:23:46 2024...
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 10 23:50:26 2024...
