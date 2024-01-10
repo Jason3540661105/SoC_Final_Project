@@ -1,0 +1,32 @@
+15:20:27 **** Auto Build of configuration Debug for project hw_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:29:20: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("led1: %x\n",dir);
+                   ~^
+                   %lx
+../src/helloworld.c:34:19: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("sw1: %x\n",dir);
+                  ~^
+                  %lx
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hw_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_2_bsp/ps7_cortexa9_0/lib -o "hw_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw_2.elf  |tee "hw_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71880	   2612	  23344	  97836	  17e2c	hw_2.elf
+'Finished building: hw_2.elf.size'
+' '
+
+15:20:27 Build Finished (took 752ms)
+

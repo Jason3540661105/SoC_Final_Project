@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../../hw2.srcs/sources_1/bd/hw2/ip/hw2_rst_ps7_0_50M_0/sim/hw2_rst_ps7_0_50M_0.vhd" \
+"../../../../hw2.srcs/sources_1/bd/hw2/ip/hw2_axi_gpio_0_1/sim/hw2_axi_gpio_0_1.vhd" \
+"../../../../hw2.srcs/sources_1/bd/hw2/ip/hw2_axi_gpio_1_0/sim/hw2_axi_gpio_1_0.vhd" \
+
+nosort

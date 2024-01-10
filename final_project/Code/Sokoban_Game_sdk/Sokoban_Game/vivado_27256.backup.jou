@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Sat Dec 23 14:25:27 2023
+# Process ID: 27256
+# Current directory: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9424 C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_sdk\Sokoban_Game\Sokoban_Game.xpr
+# Log file: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/vivado.log
+# Journal file: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/Sokoban_Game.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/Sokoban_Game.sdk -hwspec C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/Sokoban_Game.sdk/sokoban_wrapper.hdf

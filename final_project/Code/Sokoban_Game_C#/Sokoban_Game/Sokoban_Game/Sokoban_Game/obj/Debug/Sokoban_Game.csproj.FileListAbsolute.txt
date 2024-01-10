@@ -1,0 +1,11 @@
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\bin\Debug\Sokoban_Game.exe.config
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\bin\Debug\Sokoban_Game.exe
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\bin\Debug\Sokoban_Game.pdb
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.csproj.AssemblyReference.cache
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.Form1.resources
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.Properties.Resources.resources
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.csproj.GenerateResource.cache
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.csproj.CoreCompileInputs.cache
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.exe
+C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_C#\Sokoban_Game\Sokoban_Game\Sokoban_Game\obj\Debug\Sokoban_Game.pdb

@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Fri Nov  3 15:25:50 2023
+# Process ID: 6772
+# Current directory: C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13984 C:\Users\jason\Desktop\verilog_lab\soc_work\hw3\hw3\hw3.xpr
+# Log file: C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/vivado.log
+# Journal file: C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/hw3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 887.223 ; gain = 135.559
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/hw3.srcs/sources_1/bd/interrupt/interrupt.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <interrupt> from BD file <C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/hw3.srcs/sources_1/bd/interrupt/interrupt.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1012.590 ; gain = 110.141
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+launch_sdk -workspace C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/hw3.sdk -hwspec C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/hw3.sdk/interrupt_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/hw3.sdk -hwspec C:/Users/jason/Desktop/verilog_lab/soc_work/hw3/hw3/hw3.sdk/interrupt_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  3 16:11:14 2023...

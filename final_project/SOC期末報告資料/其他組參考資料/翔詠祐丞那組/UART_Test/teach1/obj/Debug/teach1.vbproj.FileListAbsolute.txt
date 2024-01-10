@@ -1,0 +1,48 @@
+c:\users\john\documents\visual studio 2015\Projects\teach1\teach1\bin\Debug\teach1.exe.config
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\bin\Debug\teach1.exe.config
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\bin\Debug\teach1.exe
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\bin\Debug\teach1.pdb
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\bin\Debug\teach1.xml
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\obj\Debug\teach1.vbprojResolveAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\obj\Debug\teach1.Form1.resources
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\obj\Debug\teach1.Resources.resources
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\obj\Debug\teach1.vbproj.GenerateResource.Cache
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\obj\Debug\teach1.exe
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\obj\Debug\teach1.xml
+C:\Users\John\Documents\Visual Studio 2015\Projects\Serial Port\teach1\obj\Debug\teach1.pdb
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\bin\Debug\teach1.exe.config
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\obj\Debug\teach1.exe
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\obj\Debug\teach1.xml
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\obj\Debug\teach1.pdb
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\bin\Debug\teach1.exe
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\bin\Debug\teach1.pdb
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\bin\Debug\teach1.xml
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\obj\Debug\teach1.vbprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\obj\Debug\teach1.Form1.resources
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\obj\Debug\teach1.Resources.resources
+C:\Users\John\Desktop\士銘\vb.net教學\Serial Port\teach1\obj\Debug\teach1.vbproj.GenerateResource.Cache
+C:\Users\s9707\Downloads\新增資料夾\teach1\bin\Debug\teach1.exe.config
+C:\Users\s9707\Downloads\新增資料夾\teach1\bin\Debug\teach1.exe
+C:\Users\s9707\Downloads\新增資料夾\teach1\bin\Debug\teach1.pdb
+C:\Users\s9707\Downloads\新增資料夾\teach1\bin\Debug\teach1.xml
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.vbproj.AssemblyReference.cache
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.Form1.resources
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.Resources.resources
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.vbproj.GenerateResource.cache
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.vbproj.CoreCompileInputs.cache
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.exe
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.xml
+C:\Users\s9707\Downloads\新增資料夾\teach1\obj\Debug\teach1.pdb
+C:\Users\Zz423\OneDrive\桌面\teach1\bin\Debug\teach1.exe.config
+C:\Users\Zz423\OneDrive\桌面\teach1\bin\Debug\teach1.exe
+C:\Users\Zz423\OneDrive\桌面\teach1\bin\Debug\teach1.pdb
+C:\Users\Zz423\OneDrive\桌面\teach1\bin\Debug\teach1.xml
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.vbproj.AssemblyReference.cache
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.Form1.resources
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.Resources.resources
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.vbproj.GenerateResource.cache
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.vbproj.CoreCompileInputs.cache
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.exe
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.xml
+C:\Users\Zz423\OneDrive\桌面\teach1\obj\Debug\teach1.pdb

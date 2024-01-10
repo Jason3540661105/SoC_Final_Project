@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Fri Nov  3 14:59:57 2023
+# Process ID: 13064
+# Current directory: C:/Users/jason/Desktop/verilog_lab/soc_work/hw2/hw2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14860 C:\Users\jason\Desktop\verilog_lab\soc_work\hw2\hw2\hw2.xpr
+# Log file: C:/Users/jason/Desktop/verilog_lab/soc_work/hw2/hw2/vivado.log
+# Journal file: C:/Users/jason/Desktop/verilog_lab/soc_work/hw2/hw2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jason/Desktop/verilog_lab/soc_work/hw2/hw2/hw2.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/jason/Desktop/verilog_lab/soc_work/hw2/hw2/hw2.srcs/sources_1/bd/hw2/hw2.bd}
+launch_sdk -workspace C:/Users/jason/Desktop/verilog_lab/soc_work/hw2/hw2/hw2.sdk -hwspec C:/Users/jason/Desktop/verilog_lab/soc_work/hw2/hw2/hw2.sdk/hw2_wrapper.hdf
