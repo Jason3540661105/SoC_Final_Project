@@ -2,10 +2,10 @@
 # Vivado v2018.2.2 (64-bit)
 # SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
 # IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
-# Start of session at: Wed Jan 10 23:48:00 2024
-# Process ID: 34800
+# Start of session at: Thu Jan 11 00:19:35 2024
+# Process ID: 14580
 # Current directory: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25892 C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_sdk\Sokoban_Game\Sokoban_Game.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34924 C:\Users\jason\Desktop\verilog_lab\soc_work\final_project\Code\Sokoban_Game_sdk\Sokoban_Game\Sokoban_Game.xpr
 # Log file: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game/vivado.log
 # Journal file: C:/Users/jason/Desktop/verilog_lab/soc_work/final_project/Code/Sokoban_Game_sdk/Sokoban_Game\vivado.jou
 #-----------------------------------------------------------

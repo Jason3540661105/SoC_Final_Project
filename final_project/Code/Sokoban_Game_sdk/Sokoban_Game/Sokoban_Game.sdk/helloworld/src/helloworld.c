@@ -218,7 +218,6 @@ int Uart_SendData(void *InstancePtr){
 			TotalByteSend += ByteSend;
 	}
 	TotalByteSend = 0;
-	//printf("\n");
 
 	return TotalByteSend;
 }
@@ -356,10 +355,6 @@ void BTN_Intr_Handler(void *InstancePtr){
 			}break;
 		}
 	}
-	else{
-		led_data = 0;
-	}
-	XGpio_DiscreteWrite(&LEDInst, 1, led_data);
 	(void) XGpio_InterruptClear(&BTNInst, BTN_INT);
 	// Enable GPIO interrupts
 	XGpio_InterruptEnable(&BTNInst, BTN_INT);
