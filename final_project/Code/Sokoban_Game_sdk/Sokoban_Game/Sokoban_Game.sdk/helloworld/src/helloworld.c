@@ -75,8 +75,7 @@ volatile static u32 ByteSend = 0 , TotalByteSend = 0;
 
 static int Sokoban_Game_State = 0;											//未結束:0   結束:1
 static int map[Map1_HEIGHT][Map1_WIDTH]= {0};								//存放地圖陣列資料的資料
-static int Remaining_Box_led;										//顯示剩餘目的地數量的led
-static int led_data;														//顯示剩餘目的地數量的led
+static int Remaining_Box_led;												//顯示剩餘目的地數量的led
 static int btn_value;
 static u8 TransmitBuffer[Map1_HEIGHT * Map1_WIDTH + 1] = {0};				//儲存轉換後[map的一維陣列]+[判斷遊戲是否結束]，共有:73bits
 
@@ -358,10 +357,6 @@ void BTN_Intr_Handler(void *InstancePtr){
 			}break;
 		}
 	}
-	//else{
-	//	led_data = 0;
-	//}
-
 	(void) XGpio_InterruptClear(&BTNInst, BTN_INT);
 	// Enable GPIO interrupts
 	XGpio_InterruptEnable(&BTNInst, BTN_INT);

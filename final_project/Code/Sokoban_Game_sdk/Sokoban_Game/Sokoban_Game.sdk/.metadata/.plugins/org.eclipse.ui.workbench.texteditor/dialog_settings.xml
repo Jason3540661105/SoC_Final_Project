@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="TransmitBuffer" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="connect"/>
 			<item value="TransmitBuffer"/>
 			<item value="Game_sta"/>
 			<item value="Game"/>
@@ -15,7 +16,6 @@
 			<item value="Initial_Map"/>
 			<item value="LEDInst"/>
 			<item value="Remaining_Destinations_led"/>
-			<item value="LED_X"/>
 		</list>
 		<list key="replacehistory">
 			<item value="te"/>
