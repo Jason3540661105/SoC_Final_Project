@@ -148,6 +148,9 @@ int main()
     	if(isWinner(map)){													//自訂布林函式判斷是否通關 (當前地圖)
     		//printf("Winner!\n");
     		//printf("Do you wnat to play again?\n");
+    		Remaining_Box(&Remaining_Box_led, map);							//自訂函式(剩餘目的地數量, 當前地圖)
+    		XGpio_DiscreteWrite(&LEDInst, 1, Remaining_Box_led);			//將LED的資料寫進指定的GPIO通道的暫存器裡	(XGpio的實例, GPIO的通道, 要寫入暫存器的資料)
+
     		if(btn_value == 0)
     		    break;
     	}
@@ -351,10 +354,14 @@ void BTN_Intr_Handler(void *InstancePtr){
 			}break;
 
 			default:{
-				printf("Error : Unknown btn_value\n");
+				//printf("Error : Unknown btn_value\n");
 			}break;
 		}
 	}
+	//else{
+	//	led_data = 0;
+	//}
+
 	(void) XGpio_InterruptClear(&BTNInst, BTN_INT);
 	// Enable GPIO interrupts
 	XGpio_InterruptEnable(&BTNInst, BTN_INT);
